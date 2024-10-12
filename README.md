@@ -1,8 +1,11 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates how to use an ERC20 for governance. The token will have two purposes:
 
-Try running some of the following tasks:
+It will be the token used for voting weight in our Governor contract.
+It will have a mint function which can only be called when a proposal from the token holders has been successfully executed.
+
+The contracts are developed using @openzeppelin/contracts Wizard V5
 
 ```shell
 npx hardhat help
